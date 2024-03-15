@@ -3,7 +3,7 @@
 /********************** Primitives(call by value) *********************/
 /* 7 types: String, Number, Boolean, null, undefined, Symbol, Bigint */
 
-const score=100
+const score=100 //number
 
 const Isloggedin=false
 
@@ -31,3 +31,14 @@ const myfunction=function(){   //Fumctions
 }
 
 console.log(heros);
+
+
+//************************************** */
+
+//stack(Primitive) copy of data is served and orignal is preserved
+//Heap(Non-Primitive) acutal orignal data is modified 
+
+let myName="OMeei"
+
+let anothername=myName;
+console.log(anothername); 
